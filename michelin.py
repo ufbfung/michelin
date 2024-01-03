@@ -33,7 +33,7 @@ if selected_award != "All":
 restaurant_week_options = ['All', 'Yes', 'No']
 selected_participation = st.sidebar.selectbox("Participated in Restaurant Week 2023:", restaurant_week_options)
 if selected_participation != 'All':
-    df = df[df['Restaurant Week 2023'].str.lower() == selected_participation.lower()]
+    df = df[df['Restaurant Week 2024'].str.lower() == selected_participation.lower()]
 
 # Display the filtered data
 st.write("Filtered Restaurants:")
