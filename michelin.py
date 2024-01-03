@@ -19,19 +19,22 @@ st.title("Restaurant Week 2023 in DMV")
 
 # Filter by cuisine
 cuisine_options = sorted(df['Cuisine'].unique())
-selected_cuisine = st.selectbox("Select Cuisine:", ["All"] + cuisine_options)
+selected_cuisine = st.sidebar.selectbox("Select Cuisine:", ["All"] + cuisine_options)
 if selected_cuisine != "All":
     df = df[df['Cuisine'] == selected_cuisine]
 
 # Filter by award
 award_options = sorted(df['Award'].unique())
-selected_award = st.selectbox("Select Award:", ["All"] + award_options)
+selected_award = st.sidebar.selectbox("Select Award:", ["All"] + award_options)
 if selected_award != "All":
     df = df[df['Award'] == selected_award]
+
+# Filter by Restaurant Week 2023 participation
+restaurant_week_options = ['All', 'Yes', 'No']
+selected_participation = st.sidebar.selectbox("Participated in Restaurant Week 2023:", restaurant_week_options)
+if selected_participation != 'All':
+    df = df[df['Restaurant Week 2023'].str.lower() == selected_participation.lower()]
 
 # Display the filtered data
 st.write("Filtered Restaurants:")
 st.write(df)
-
-# Link to the Michelin Guide website
-st.sidebar.markdown("Visit the [Michelin Guide](https://guide.michelin.com/) website for more information.")
