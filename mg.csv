@@ -1,44 +1,44 @@
-Name,Address,Price,Cuisine,URL,WebsiteURL,Award,Restaurant Week 2023
-La Tejana,"3211 Mt. Pleasant St. NW, Washington, 20010, USA",$,Mexican,https://www.latejanadc.com/,https://guide.michelin.com/us/en/district-of-columbia/washington-dc/restaurant/la-tejana,Bib Gourmand,?
-Little Pearl,"921 Pennsylvania Ave. SE, Washington, 20003, USA",$$$,Contemporary,https://www.littlepearldc.com/,https://guide.michelin.com/us/en/district-of-columbia/washington-dc/restaurant/little-pearl,1 star,?
-Cane,"403 H St. NE, Washington, 20002, USA",$$$,"Caribbean, Regional Cuisine",,https://guide.michelin.com/us/en/district-of-columbia/washington-dc/restaurant/cane,Bib Gourmand,?
-Stellina Pizzeria,,,Unknown,,,Bib Gourmand,Unknown
-Queen's English,,,Unknown,,,Bib Gourmand,Unknown
-Taqueria Habanero,,,Unknown,,,Bib Gourmand,Unknown
-Dauphine's,,,Unknown,,,Bib Gourmand,Unknown
-Menya Hosaki,,,Unknown,,,Bib Gourmand,Unknown
-Daru,,,Unknown,,,Bib Gourmand,Unknown
-Ellē,,,Unknown,,,Bib Gourmand,Unknown
-Toki Underground,,,Unknown,,,Bib Gourmand,Unknown
-Laos in Town,,,Unknown,,,Bib Gourmand,Unknown
-Yellow,,,Unknown,,,Bib Gourmand,Unknown
-Astoria DC,,,Unknown,,,Bib Gourmand,Unknown
-Maketto,,,Unknown,,,Bib Gourmand,Unknown
-Karma Modern Indian,,,Unknown,,,Bib Gourmand,Unknown
-Sababa,,,Unknown,,,Bib Gourmand,Unknown
-Honeymoon Chicken,,,Unknown,,,Bib Gourmand,Unknown
-Makan,,,Unknown,,,Bib Gourmand,Yes
-Hitching Post,,,Unknown,,,Bib Gourmand,Unknown
-Ivy City Smokehouse,,,Unknown,,,Bib Gourmand,Unknown
-Rania,,,Unknown,,,1 star,Unknown
-Fiola,,,Unknown,,,1 star,Unknown
-Métier,,,Unknown,,,1 star,Unknown
-The Dabney,,,Unknown,,,1 star,Unknown
-Kinship,,,Unknown,,,1 star,Unknown
-Gravitas,,,Unknown,,,1 star,Unknown
-Xiquet,,,Unknown,,,1 star,Unknown
-Rooster & Owl,,,Unknown,,,1 star,Unknown
-Masseria,,,Unknown,,,1 star,Unknown
-Elcielo D.C.,,,Unknown,,,1 star,Unknown
-Maydān,,,Unknown,,,1 star,Unknown
-Reverie,,,Unknown,,,1 star,Unknown
-Causa,,,Unknown,,,1 star,Unknown
-Bresca,,,Unknown,,,1 star,Yes
-Oyster Oyster,,,Unknown,,,1 star,Unknown
-Tail Up Goat,,,Unknown,,,1 star,Unknown
-Sushi Nakazawa,,,Unknown,,,1 star,Unknown
-Imperfecto: The Chef's Table,,,Unknown,,,1 star,Unknown
-Albi,,,Unknown,,,2 stars,Unknown
-Jônt,,,Unknown,,,2 stars,Unknown
-minibar,,,Unknown,,,2 stars,No
-Pineapple and Pearls,,,Unknown,,,2 stars,Unknown
+Name,Award,Cuisine,Price,Address,URL,WebsiteURL,Restaurant Week 2023
+La Tejana,Bib Gourmand,Mexican,$,"3211 Mt. Pleasant St. NW, Washington, 20010, USA",https://www.latejanadc.com/,https://guide.michelin.com/us/en/district-of-columbia/washington-dc/restaurant/la-tejana,?
+Little Pearl,1 star,Contemporary,$$$,"921 Pennsylvania Ave. SE, Washington, 20003, USA",https://www.littlepearldc.com/,https://guide.michelin.com/us/en/district-of-columbia/washington-dc/restaurant/little-pearl,?
+Cane,Bib Gourmand,"Caribbean, Regional Cuisine",$$$,"403 H St. NE, Washington, 20002, USA",,https://guide.michelin.com/us/en/district-of-columbia/washington-dc/restaurant/cane,?
+Stellina Pizzeria,Bib Gourmand,tbd,tbd,,,,tbd
+Queen's English,Bib Gourmand,tbd,,,,,tbd
+Taqueria Habanero,Bib Gourmand,tbd,,,,,tbd
+Dauphine's,Bib Gourmand,tbd,,,,,tbd
+Menya Hosaki,Bib Gourmand,tbd,,,,,tbd
+Daru,Bib Gourmand,tbd,,,,,tbd
+Ellē,Bib Gourmand,tbd,,,,,tbd
+Toki Underground,Bib Gourmand,tbd,,,,,tbd
+Laos in Town,Bib Gourmand,tbd,,,,,tbd
+Yellow,Bib Gourmand,tbd,,,,,tbd
+Astoria DC,Bib Gourmand,tbd,,,,,tbd
+Maketto,Bib Gourmand,tbd,,,,,tbd
+Karma Modern Indian,Bib Gourmand,tbd,,,,,tbd
+Sababa,Bib Gourmand,tbd,,,,,tbd
+Honeymoon Chicken,Bib Gourmand,tbd,,,,,tbd
+Makan,Bib Gourmand,tbd,,,,,Yes
+Hitching Post,Bib Gourmand,tbd,,,,,tbd
+Ivy City Smokehouse,Bib Gourmand,tbd,,,,,tbd
+Rania,1 star,tbd,,,,,tbd
+Fiola,1 star,tbd,,,,,tbd
+Métier,1 star,tbd,,,,,tbd
+The Dabney,1 star,tbd,,,,,tbd
+Kinship,1 star,tbd,,,,,tbd
+Gravitas,1 star,tbd,,,,,tbd
+Xiquet,1 star,tbd,,,,,tbd
+Rooster & Owl,1 star,tbd,,,,,tbd
+Masseria,1 star,tbd,,,,,tbd
+Elcielo D.C.,1 star,tbd,,,,,tbd
+Maydān,1 star,tbd,,,,,tbd
+Reverie,1 star,tbd,,,,,tbd
+Causa,1 star,tbd,,,,,tbd
+Bresca,1 star,tbd,,,,,Yes
+Oyster Oyster,1 star,tbd,,,,,tbd
+Tail Up Goat,1 star,tbd,,,,,tbd
+Sushi Nakazawa,1 star,tbd,,,,,tbd
+Imperfecto: The Chef's Table,1 star,tbd,,,,,tbd
+Albi,2 stars,tbd,,,,,tbd
+Jônt,2 stars,tbd,,,,,tbd
+minibar,2 stars,tbd,,,,,No
+Pineapple and Pearls,2 stars,tbd,,,,,tbd
