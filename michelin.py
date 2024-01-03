@@ -15,7 +15,7 @@ mg_csv = 'mg.csv'
 df = pd.read_csv(mg_csv)
 
 # Streamlit app
-st.title("Restaurant Week 2023 in DMV")
+st.title("Restaurant Week 2024 in DMV")
 
 # Filter by cuisine
 cuisine_options = sorted(df['Cuisine'].unique())
