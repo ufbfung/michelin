@@ -1,44 +1,44 @@
-Name,Award,Cuisine,Price,Address,URL,WebsiteURL,Restaurant Week 2023
-La Tejana,Bib Gourmand,Mexican,$,"3211 Mt. Pleasant St. NW, Washington, 20010, USA",https://www.latejanadc.com/,https://guide.michelin.com/us/en/district-of-columbia/washington-dc/restaurant/la-tejana,?
-Little Pearl,1 star,Contemporary,$$$,"921 Pennsylvania Ave. SE, Washington, 20003, USA",https://www.littlepearldc.com/,https://guide.michelin.com/us/en/district-of-columbia/washington-dc/restaurant/little-pearl,?
-Cane,Bib Gourmand,"Caribbean, Regional Cuisine",$$$,"403 H St. NE, Washington, 20002, USA",,https://guide.michelin.com/us/en/district-of-columbia/washington-dc/restaurant/cane,?
-Stellina Pizzeria,Bib Gourmand,tbd,tbd,,,,tbd
-Queen's English,Bib Gourmand,tbd,,,,,tbd
-Taqueria Habanero,Bib Gourmand,tbd,,,,,tbd
-Dauphine's,Bib Gourmand,tbd,,,,,tbd
-Menya Hosaki,Bib Gourmand,tbd,,,,,tbd
-Daru,Bib Gourmand,tbd,,,,,tbd
-Ellē,Bib Gourmand,tbd,,,,,tbd
-Toki Underground,Bib Gourmand,tbd,,,,,tbd
-Laos in Town,Bib Gourmand,tbd,,,,,tbd
-Yellow,Bib Gourmand,tbd,,,,,tbd
-Astoria DC,Bib Gourmand,tbd,,,,,tbd
-Maketto,Bib Gourmand,tbd,,,,,tbd
-Karma Modern Indian,Bib Gourmand,tbd,,,,,tbd
-Sababa,Bib Gourmand,tbd,,,,,tbd
-Honeymoon Chicken,Bib Gourmand,tbd,,,,,tbd
-Makan,Bib Gourmand,tbd,,,,,Yes
-Hitching Post,Bib Gourmand,tbd,,,,,tbd
-Ivy City Smokehouse,Bib Gourmand,tbd,,,,,tbd
-Rania,1 star,tbd,,,,,tbd
-Fiola,1 star,tbd,,,,,tbd
-Métier,1 star,tbd,,,,,tbd
-The Dabney,1 star,tbd,,,,,tbd
-Kinship,1 star,tbd,,,,,tbd
-Gravitas,1 star,tbd,,,,,tbd
-Xiquet,1 star,tbd,,,,,tbd
-Rooster & Owl,1 star,tbd,,,,,tbd
-Masseria,1 star,tbd,,,,,tbd
-Elcielo D.C.,1 star,tbd,,,,,tbd
-Maydān,1 star,tbd,,,,,tbd
-Reverie,1 star,tbd,,,,,tbd
-Causa,1 star,tbd,,,,,tbd
-Bresca,1 star,tbd,,,,,Yes
-Oyster Oyster,1 star,tbd,,,,,tbd
-Tail Up Goat,1 star,tbd,,,,,tbd
-Sushi Nakazawa,1 star,tbd,,,,,tbd
-Imperfecto: The Chef's Table,1 star,tbd,,,,,tbd
-Albi,2 stars,tbd,,,,,tbd
-Jônt,2 stars,tbd,,,,,tbd
-minibar,2 stars,tbd,,,,,No
-Pineapple and Pearls,2 stars,tbd,,,,,tbd
+Name,Award,Cuisine,Price,Address,URL,Michelin URL,"Restaurant Week Jan 15-21, 2024",Comments
+Bresca,1 star,Contemporary,$$$$,,,,Yes,
+Gravitas,1 star,Contemporary,$$$$,,,,Yes,
+Xiquet,1 star,Spanish,$$$$,,,,Yes,
+Dauphine's,Bib Gourmand,Creole,$$,,,,Yes,
+Ivy City Smokehouse,Bib Gourmand,Seafood,$$,,,,Yes,
+Laos in Town,Bib Gourmand,South East Asian,$$,,,,Yes,
+Makan,Bib Gourmand,Malaysian,$$,,,,Yes,
+Maketto,Bib Gourmand,Asian,$$,,,,Yes,
+Sababa,Bib Gourmand,Mediterranean,$$,,,,Yes,
+Albi,1 star,Middle Eastern,$$$$,,,,No,
+Causa,1 star,Peruvian,$$$$,"920 Blagden Alley NW, Washington, 20001, USA",,https://guide.michelin.com/us/en/district-of-columbia/washington-dc/restaurant/causa,No,"Closed Mon/Tues, open 5pm-12am"
+Elcielo D.C.,1 star,Columbian,$$$$,,,,No,
+Fiola,1 star,Italian,$$$$,"601 Pennsylvania Ave. NW, Washington, 20004",,https://guide.michelin.com/us/en/district-of-columbia/washington-dc/restaurant/fiola,No,
+Imperfecto: The Chef's Table,1 star,Latin American,$$$$,,,,No,
+Kinship,1 star,Contemporary,$$$,,,,No,
+Little Pearl,1 star,Contemporary,$$$,"921 Pennsylvania Ave. SE, Washington, 20003, USA",https://www.littlepearldc.com/,https://guide.michelin.com/us/en/district-of-columbia/washington-dc/restaurant/little-pearl,No,
+Masseria,1 star,Italian,$$$$,,,,No,
+Maydān,1 star,Middle Eastern,$$$,,,,No,Didn't like the set menu
+Métier,1 star,Contemporary,$$$$,,,,No,
+Oyster Oyster,1 star,Vegetarian,$$$,,,,No,
+Rania,1 star,Indian,$$$$,,,,No,
+Reverie,1 star,Contemporary,$$$$,,,,No,
+Rooster & Owl,1 star,Contemporary,$$$,,,,No,
+Sushi Nakazawa,1 star,Japanese,$$$$,,,,No,
+Tail Up Goat,1 star,Contemporary,$$,,,,No,
+The Dabney,1 star,American,$$$$,,,,No,
+Jônt,2 stars,Contemporary,$$$$,,,,No,
+minibar,2 stars,Contemporary,$$$$,,,,No,
+Pineapple and Pearls,2 stars,Contemporary,$$$$,,,,No,
+Astoria DC,Bib Gourmand,Asian,$$,,,,No,
+Cane,Bib Gourmand,"Caribbean, Regional Cuisine",$$$,"403 H St. NE, Washington, 20002, USA",,https://guide.michelin.com/us/en/district-of-columbia/washington-dc/restaurant/cane,No,
+Daru,Bib Gourmand,Indian,$$,,,,No,
+Ellē,Bib Gourmand,Contemporary,$$,,,,No,
+Hitching Post,Bib Gourmand,Southern,$$,,,,No,
+Honeymoon Chicken,Bib Gourmand,American,$$,,,,No,
+Karma Modern Indian,Bib Gourmand,Indian,$$,,,,No,
+La Tejana,Bib Gourmand,Mexican,$,"3211 Mt. Pleasant St. NW, Washington, 20010, USA",https://www.latejanadc.com/,https://guide.michelin.com/us/en/district-of-columbia/washington-dc/restaurant/la-tejana,No,
+Menya Hosaki,Bib Gourmand,Japanese,$$,,,,No,
+Queen's English,Bib Gourmand,Chinese,$$,,,,No,
+Stellina Pizzeria,Bib Gourmand,Pizza,$$,,,,No,
+Taqueria Habanero,Bib Gourmand,Mexican,$$,,,,No,
+Toki Underground,Bib Gourmand,Japanese,$,,,,No,
+Yellow,Bib Gourmand,Middle Eastern,$$,,,,No,
