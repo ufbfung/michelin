@@ -78,7 +78,7 @@ if not df.empty:
     df['LONGITUDE'] = df['Coordinates'].apply(lambda x: eval(x)[1] if pd.notnull(x) else None)
     
     # Filter out rows with missing coordinates
-    df = df.dropna(subset=['Latitude', 'Longitude'])
+    df = df.dropna(subset=['LATITUDE', 'LONGITUDE'])
 
     # Display the map using st.map()
     st.map(df)
