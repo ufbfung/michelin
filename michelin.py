@@ -10,6 +10,7 @@ Original file is located at
 import pandas as pd
 import streamlit as st
 import folium
+import os
 from geopy.geocoders import GoogleV3
 
 # Load the CSV file of Michelin Restaurants
@@ -32,6 +33,7 @@ if selected_award != "All":
     df = df[df['Award'] == selected_award]
 
 # Initialize the Google Maps geocoder
+api_key = os.getenv("api_key")
 geolocator = GoogleV3(api_key)  # Replace with your Google Maps API key
 
 # Geocode addresses and add coordinates to the DataFrame
