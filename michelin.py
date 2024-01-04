@@ -81,6 +81,7 @@ if not df.empty:
     df = df.dropna(subset=['Latitude', 'Longitude'])
 
     # Display the map using st.map()
-    st.map(df[['Latitude', 'Longitude']].values)
+    st.map(df)
 else:
     st.warning("No restaurants match the selected criteria.")
+
