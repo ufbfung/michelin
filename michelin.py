@@ -74,8 +74,8 @@ if not df.empty:
     st.write("Restaurant Locations on Map:")
     
     # Extract latitudes and longitudes from the 'Coordinates' column
-    df['Latitude'] = df['Coordinates'].apply(lambda x: eval(x)[0] if pd.notnull(x) else None)
-    df['Longitude'] = df['Coordinates'].apply(lambda x: eval(x)[1] if pd.notnull(x) else None)
+    df['LATITUDE'] = df['Coordinates'].apply(lambda x: eval(x)[0] if pd.notnull(x) else None)
+    df['LONGITUDE'] = df['Coordinates'].apply(lambda x: eval(x)[1] if pd.notnull(x) else None)
     
     # Filter out rows with missing coordinates
     df = df.dropna(subset=['Latitude', 'Longitude'])
