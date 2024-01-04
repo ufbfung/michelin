@@ -9,6 +9,8 @@ Original file is located at
 
 import pandas as pd
 import streamlit as st
+import folium
+from geopy.geocoders import GoogleV3
 
 # Load the CSV file of Michelin Restaurants
 mg_csv = 'mg.csv'
@@ -29,12 +31,38 @@ selected_award = st.sidebar.selectbox("Select Award:", ["All"] + award_options)
 if selected_award != "All":
     df = df[df['Award'] == selected_award]
 
-# Filter by Restaurant Week 2023 participation
+# Initialize the Google Maps geocoder
+geolocator = GoogleV3(api_key)  # Replace with your Google Maps API key
+
+# Geocode addresses and add coordinates to the DataFrame
+def geocode_address(address):
+    location = geolocator.geocode(address)
+    if location:
+        return f"({location.latitude}, {location.longitude})"
+    else:
+        return None
+
+df['Coordinates'] = df['Address'].apply(geocode_address)
+
+# Filter by Restaurant Week 2024 participation
 restaurant_week_options = ['All', 'Yes', 'No']
-selected_participation = st.sidebar.selectbox("Participated in Restaurant Week 2023:", restaurant_week_options)
+selected_participation = st.sidebar.selectbox("Participating in Restaurant Week 2024:", restaurant_week_options)
 if selected_participation != 'All':
     df = df[df['Restaurant Week 2024'].str.lower() == selected_participation.lower()]
 
 # Display the filtered data
 st.write("Filtered Restaurants:")
 st.write(df)
+
+# Display the map with restaurant locations
+if not df.empty:
+    st.write("Restaurant Locations on Map:")
+    my_map = folium.Map(location=[38.9007, -77.0219], zoom_start=11)
+
+    for index, row in df.iterrows():
+        if row['Coordinates']:
+            folium.Marker(eval(row['Coordinates']), popup=row['Name']).add_to(my_map)
+
+    st.write(my_map)
+else:
+    st.warning("No restaurants match the selected criteria.")
