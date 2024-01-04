@@ -56,15 +56,31 @@ if selected_participation != 'All':
 st.write("Filtered Restaurants:")
 st.write(df)
 
+# Display the map with restaurant locations # commenting out the code with folium
+#if not df.empty:
+#    st.write("Restaurant Locations on Map:")
+#    my_map = folium.Map(location=[38.9007, -77.0219], zoom_start=11)
+#
+#    for index, row in df.iterrows():
+#        if row['Coordinates']:
+#            folium.Marker(eval(row['Coordinates']), popup=row['Name']).add_to(my_map)
+#
+#    st.write(my_map)
+#else:
+#    st.warning("No restaurants match the selected criteria.")
+
 # Display the map with restaurant locations
 if not df.empty:
     st.write("Restaurant Locations on Map:")
-    my_map = folium.Map(location=[38.9007, -77.0219], zoom_start=11)
+    
+    # Extract latitudes and longitudes from the 'Coordinates' column
+    df['Latitude'] = df['Coordinates'].apply(lambda x: eval(x)[0] if pd.notnull(x) else None)
+    df['Longitude'] = df['Coordinates'].apply(lambda x: eval(x)[1] if pd.notnull(x) else None)
+    
+    # Filter out rows with missing coordinates
+    df = df.dropna(subset=['Latitude', 'Longitude'])
 
-    for index, row in df.iterrows():
-        if row['Coordinates']:
-            folium.Marker(eval(row['Coordinates']), popup=row['Name']).add_to(my_map)
-
-    st.write(my_map)
+    # Display the map using st.map()
+    st.map(df[['Latitude', 'Longitude']].values)
 else:
     st.warning("No restaurants match the selected criteria.")
