@@ -1,0 +1,3 @@
+pandas # for working with dataframes
+folium # for displaying interactive maps
+geopy.geocoders # for working with coordinates
