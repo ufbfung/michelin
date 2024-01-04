@@ -7,11 +7,6 @@ Original file is located at
     https://colab.research.google.com/drive/1k9qXQ-0_R1dpYODLOzlx5Gk80TrbsHwv
 """
 
-import pandas as pd
-import streamlit as st
-import folium
-from geopy.geocoders import GoogleV3
-
 # Load the CSV file of Michelin Restaurants
 mg_csv = 'mg.csv'
 df = pd.read_csv(mg_csv)
