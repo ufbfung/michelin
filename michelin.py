@@ -32,19 +32,21 @@ selected_award = st.sidebar.selectbox("Select Award:", ["All"] + award_options)
 if selected_award != "All":
     df = df[df['Award'] == selected_award]
 
+# Removing api access due to costs
+
 # Initialize the Google Maps geocoder
-api_key = os.getenv("api_key")
-geolocator = GoogleV3(api_key)  # Replace with your Google Maps API key
+#api_key = os.getenv("api_key")
+#geolocator = GoogleV3(api_key)  # Replace with your Google Maps API key
 
 # Geocode addresses and add coordinates to the DataFrame
-def geocode_address(address):
-    location = geolocator.geocode(address)
-    if location:
-        return f"({location.latitude}, {location.longitude})"
-    else:
-        return None
+#def geocode_address(address):
+#    location = geolocator.geocode(address)
+#    if location:
+#        return f"({location.latitude}, {location.longitude})"
+#    else:
+#        return None
 
-df['Coordinates'] = df['Address'].apply(geocode_address)
+#df['Coordinates'] = df['Address'].apply(geocode_address)
 
 # Filter by Restaurant Week 2024 participation
 restaurant_week_options = ['All', 'Yes', 'No']
@@ -70,18 +72,18 @@ st.write(df)
 #    st.warning("No restaurants match the selected criteria.")
 
 # Display the map with restaurant locations
-if not df.empty:
-    st.write("Restaurant Locations on Map:")
+#if not df.empty:
+#    st.write("Restaurant Locations on Map:")
     
     # Extract latitudes and longitudes from the 'Coordinates' column
-    df['LATITUDE'] = df['Coordinates'].apply(lambda x: eval(x)[0] if pd.notnull(x) else None)
-    df['LONGITUDE'] = df['Coordinates'].apply(lambda x: eval(x)[1] if pd.notnull(x) else None)
+#    df['LATITUDE'] = df['Coordinates'].apply(lambda x: eval(x)[0] if pd.notnull(x) else None)
+#    df['LONGITUDE'] = df['Coordinates'].apply(lambda x: eval(x)[1] if pd.notnull(x) else None)
     
     # Filter out rows with missing coordinates
-    df = df.dropna(subset=['LATITUDE', 'LONGITUDE'])
+#    df = df.dropna(subset=['LATITUDE', 'LONGITUDE'])
 
     # Display the map using st.map()
-    st.map(df)
-else:
-    st.warning("No restaurants match the selected criteria.")
+#    st.map(df)
+#else:
+#    st.warning("No restaurants match the selected criteria.")
 
