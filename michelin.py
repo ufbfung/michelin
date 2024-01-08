@@ -11,7 +11,7 @@ import pandas as pd
 import streamlit as st
 import folium
 import os
-from geopy.geocoders import GoogleV3
+#from geopy.geocoders import GoogleV3
 
 # Load the CSV file of Michelin Restaurants
 mg_csv = 'mg.csv'
